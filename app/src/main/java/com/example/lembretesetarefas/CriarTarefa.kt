@@ -1,5 +1,6 @@
 package com.example.lembretesetarefas
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -40,6 +41,7 @@ class CriarTarefa : AppCompatActivity() {
 
     }
 
+    @SuppressLint("WrongConstant")
     private fun initListeners() {
         //Calendário
         binding.textDate.editText?.setOnClickListener {
@@ -89,7 +91,7 @@ class CriarTarefa : AppCompatActivity() {
                val text = "Preencha os Campos em Branco"
                val duration = Toast.LENGTH_SHORT
 
-               val toast = Toast.makeText(applicationContext, text, 2000)
+               val toast = Toast.makeText(applicationContext, text, duration)
                toast.show()
 
            }
