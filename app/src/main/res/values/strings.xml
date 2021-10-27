@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lembretes e Tarefas</string>
+    <string name="editar">Editar</string>
+    <string name="deletar">Deletar</string>
+    <string name="t_tulo">Título</string>
+    <string name="data">Data</string>
+    <string name="hora">Hora</string>
+    <string name="criar_tarefa">Criar Tarefa</string>
+    <string name="descri_o">Descrição</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="tarefas_de_hoje">Tarefas de Hoje</string>
+</resources>
